@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,12 +7,10 @@
 </head>
 <body>
 <header class="header">
-  <nav class="header__navigation">
-    <a class="header__logo-link" href="#">
-      <img class="header__logo-image" src="img/general/logo.png" width="109" height="30"
-           alt="Логотип школы Трафика.">
-    </a>
-  </nav>
+  <a class="header__logo-link" href="#">
+    <img class="header__logo-image" src="img/general/logo.png" width="109" height="30"
+         alt="Логотип школы Трафика.">
+  </a>
 </header>
 <main>
   <h1 class="visually-hidden">
@@ -20,58 +18,53 @@
   </h1>
   <section class="promo">
     <h2 class="promo__title">
-      Видеокурс
+      Видеокурс <strong class="promo__title-main-words">«Вступление в товарный арбитраж трафика»</strong>
     </h2>
-    <p class="promo__name">
-      «Вступление в товарный арбитраж трафика»
-    </p>
+    <img class="promo__image" src="img/promo/video-course.png" width="859" height="757" alt="Содержание видеокурса.">
     <p class="promo__text">
       Получи бесплатный видеокурс по товарному арбитражу для новичков
     </p>
     <a class="promo__download-button" href="#">
       Скачать видео курс
     </a>
-    <img class="promo__image" src="img/promo/video-course.png" width="859" height="757" alt="Содержание видеокурса.">
-    <dl class="promo__advantages">
-      <dt class="promo__advantage-term">
-        Быстро
-      </dt>
-      <dd class="promo__advantage-data">
-        вольёшься в нишу интернет продаж
-      </dd>
-      <dt class="promo__advantage-term">
-        Овладеешь
-      </dt>
-      <dd class="promo__advantage-data">
-        наиболее выгодной и востребованной профессией 2016 года
-      </dd>
-      <dt class="promo__advantage-term">
-        Зарабатывай
-      </dt>
-      <dd class="promo__advantage-data">
-        деньги в любой точке мира
-      </dd>
-    </dl>
+  </section>
+  <section class="advantages">
+    <h2 class="visually-hidden">
+      Преимущества обучения на курсе.
+    </h2>
+    <ul class="advantages__list">
+      <li class="advantages__item">
+        <span class="advantages__first-word">Быстро</span> вольёшься в нишу интернет продаж
+      </li>
+      <li class="advantages__item">
+        <span class="advantages__first-word">Овладеешь</span> наиболее выгодной и востребованной профессией 2016 года
+      </li>
+      <li class="advantages__item">
+        <span class="advantages__first-word">Зарабатывай</span> деньги в любой точке мира
+      </li>
+    </ul>
   </section>
   <section class="author">
     <h2 class="author__title">
       Автор Видеокурса
+      <span class="author__name">
+        Артур Гарнаев
+      </span>
     </h2>
     <img class="author" src="img/author/photo.jpg" width="369" height="476" alt="Фото Артура Гарнаева.">
-    <cite class="author__name">
-      Артур Гарнаев
-    </cite>
     <p class="author__titles">
       Арбитражник, рекламодатель, интернет-предприниматель
     </p>
-    <q class="author__text">Прокрутил рекламы более чем на 50 000 $ Ежедневно продаю более 150 физических товаров
-      при том, что трафик на рекламу лью сам!</q>
+    <p class="author__text">
+      Прокрутил рекламы более чем на 50 000 $. Ежедневно продаю более 150 физических товаров
+      при том, что трафик на рекламу лью сам!
+    </p>
   </section>
   <section class="graduating">
     <h2 class="graduating__title">
       После прохождения бесплатного видеокурса ты узнаешь:
     </h2>
-    <ol class="graduating__list">
+    <ul class="graduating__list">
       <li class="graduating__item">
         В чем суть арбитража трафика?
       </li>
@@ -87,7 +80,7 @@
       <li class="graduating__item">
         С чего начать?
       </li>
-    </ol>
+    </ul>
   </section>
   <section class="reviews">
     <h2 class="reviews__title">
@@ -103,9 +96,9 @@
         два раза больше, а затраты на рекламу уменьшились процентов на 30. Планирую продолжить обучение у Артура,
         оно мгновенно окупается и приносит реальную прибыль!
       </p>
-      <address class="reviews__location">
+      <p class="reviews__location">
         Санкт-Петербург
-      </address>
+      </p>
       <time class="reviews__date" datetime="2016-03-20">20.03.2016</time>
     </blockquote>
     <button class="reviews__slider-button" type="button">
@@ -148,43 +141,16 @@
     </p>
   </section>
   <section class="offer">
-    <h2 class="visually-hidden">
-      Специально предложение.
+    <h2 class="offer__title">
+      Скачай видеокурс сейчас <span class="offer__lowercase-words">и получи крутые бонусы совершенно бесплатно!</span>
     </h2>
-    <p class="offer__main-text">
-      <strong class="offer__main-words">
-        Скачай видеокурс сейчас
-      </strong>и получи крутые бонусы совершенно бесплатно!
-    </p>
     <p class="offer__time-text">
       Предложение ограничено! Успей!
     </p>
-    <dl class="offer__timer">
-      <dt class="offer__timer-term">
-        дней
-      </dt>
-      <dd class="offer__timer-value">
-        0
-      </dd>
-      <dt class="offer__timer-term">
-        часов
-      </dt>
-      <dd class="offer__timer-value">
-        9
-      </dd>
-      <dt class="offer__timer-term">
-        минут
-      </dt>
-      <dd class="offer__timer-value">
-        34
-      </dd>
-      <dt class="offer__timer-term">
-        секунд
-      </dt>
-      <dd class="offer__timer-value">
-        11
-      </dd>
-    </dl>
+    0 дней
+    9 часов
+    34 минут
+    11 секунд
     <form class="offer__form" method="post" enctype="multipart/form-data" action="#" autocomplete="off">
       <label class="visually-hidden" for="offer-username">
         Введите ваше имя.
@@ -206,9 +172,9 @@
 </main>
 <footer class="footer">
   <p class="footer__copyright">
-    <a class="footer__link" href="#">
+    <span class="footer__link">
       «Школа трафика»
-    </a> - школа товарного арбитража трафика Артура Гарнаева © 2016
+    </span> - школа товарного арбитража трафика Артура Гарнаева © 2016
   </p>
 </footer>
 </body>
